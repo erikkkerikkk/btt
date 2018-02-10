@@ -20,7 +20,7 @@ if isRunning("KKBOX") then
 			end repeat
 		end tell
 	end tell
-	if length of theContentNames is 3 then
+	if length of theContentNames ≥ 3 then
 		if item 2 of theContentNames is equal to missing value then
 			set theResult to (item 1 of theContentNames) & (item 3 of theContentNames)
 			do shell script "echo \"" & theResult & "\" > ~/btt_kkbox"
@@ -32,4 +32,5 @@ if isRunning("KKBOX") then
 else
 	return "KKBOX"
 end if
+
 ```
