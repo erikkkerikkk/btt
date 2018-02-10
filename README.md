@@ -1,6 +1,6 @@
 # btt
 
-better touch tool (bettertouchtool) for kkbox mac
+bettertouchtool (better touch tool) for kkbox mac
 
 ```
 on isRunning(theAppName)
