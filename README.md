@@ -2,6 +2,7 @@
 
 for kkbox mac
 
+```
 on isRunning(theAppName)
 	tell application "System Events" to (name of processes) contains theAppName
 end isRunning
@@ -31,3 +32,4 @@ if isRunning("KKBOX") then
 else
 	return "KKBOX"
 end if
+```
